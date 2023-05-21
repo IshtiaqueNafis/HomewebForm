@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Josefin+Sans:ital,wght@0,300;1,400&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+@media screen and (max-width: 480px) {
+   
+    .main-body{
+        
+        height: 100%;
+    }
+    .mobile,
+    .mobile::placeholder{
+        font-size: 12px;
+        
+    }
+
+    .head img{
+        width: 140px;
+    }
+    /* .col-6{
+
+    } */
+    .form-group label{
+        font-size: 12px;
+    }
+
+    .form-group lockout{
+        font-size: 12px;
+    }
+
+    /* .col-6{
+        width: 100%;
+    } */
+
+    hr{
+        background-color: black;
+        height: 5px;
+    }
+    
+  }
+
